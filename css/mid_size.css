@@ -1,0 +1,27 @@
+.pictures{
+    height: 50vh;
+    position: relative;
+}
+
+.contain__pictures{
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pictures__div{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.pictures__div:nth-child(1){
+    background-image: url(../img/img1.jpg);
+}
+.pictures__div:nth-child(3){
+    background-image: url(../img/img2.jpg);
+}
