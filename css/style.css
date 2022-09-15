@@ -144,3 +144,29 @@ body{
     margin-right: 5px;
     transform: translateY(-2px);
 }
+
+/* SECTION PICTURES */
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.pictures div{
+    height: 100%;
+    background-position: center; 
+    background-size: cover;   
+}
+
+.pictures__div:nth-child(1){
+    background-image: url(../img/img1.jpg);
+}
+.pictures__div:nth-child(2){
+    background-image: url(../img/img3.jpg);
+    width: 100%;
+}
+.pictures__div:nth-child(3){
+    background-image: url(../img/img2.jpg);
+}
