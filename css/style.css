@@ -204,8 +204,27 @@ body{
     border: 1px solid var(--black__color);
 }
 
+.contact__form textarea{
+    resize: none;
+}
+
 .contact__form .btn{
     width: 80%;
     background-color: var(--main__color);
     cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 50px;
+    background-color: var(--black__color);
+    display: flex;
+    align-items: center;
+}
+
+.footer a{
+    color: lightgray;
+    font-size: 12px;
+    font-family: 'overpass', sans-serif;
 }
