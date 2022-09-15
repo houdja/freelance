@@ -2,12 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root{
     --main__color: #F8C258;
+    --light_grey: rgba(0, 0, 0, 0.2);
 }
 
 body{
     font-family: 'poppins', 'overpass', sans-serif;
+}
+
+.navbar{
+    height: 50px;
+    border-bottom: 1px solid var(--light_grey);
+    position: relative;
+}
+
+.socials{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    height: 20px;
+}
+
+.twitter,
+.dribbble{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.twitter{
+    margin-left: 30px;
 }
