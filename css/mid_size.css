@@ -1,3 +1,5 @@
+/* SECTION PICTURES */
+
 .pictures{
     height: 50vh;
     position: relative;
@@ -24,4 +26,17 @@
 }
 .pictures__div:nth-child(3){
     background-image: url(../img/img2.jpg);
+}
+
+/* CONTACT */
+
+.contact__form input,
+.contact__form textarea,
+.contact__form .btn {
+    width: 500px;
+}
+
+.contact__form h1{
+    margin-bottom: 50px;
+    font-size: 40px;
 }
