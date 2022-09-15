@@ -170,3 +170,42 @@ body{
 .pictures__div:nth-child(3){
     background-image: url(../img/img2.jpg);
 }
+
+/* SECTION CONTACT */
+
+.contact{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.contact__form h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contact__form input,
+.contact__form textarea {
+    width: 80%;
+    margin-bottom: 30px;
+    padding: 7.5px 10px;
+    font-family: 'overpass', sans-serif;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--black__color);
+}
+
+.contact__form .btn{
+    width: 80%;
+    background-color: var(--main__color);
+    cursor: pointer;
+}
